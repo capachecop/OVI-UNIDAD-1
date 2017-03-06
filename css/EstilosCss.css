@@ -1,0 +1,155 @@
+/* font-family: 'Libre Franklin', sans-serif; */
+
+#contenidos {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	/*background: lightblue;*/
+}	
+
+/*ETIQUETAS*/
+
+body {
+background-image: url(../img/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+h1 {
+	font-family: 'Libre Franklin', sans-serif;
+	margin-left: 5px;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Libre Franklin', sans-serif;
+	margin-left: 5px;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+h3 {
+	font-family: 'Libre Franklin', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+	text-align: right;
+}
+	
+header {
+	width: 1200px;
+	height: 300px;
+	color: white;
+	background: rgba(255, 255, 255, 0,6);
+}
+
+figure {
+	float: left;
+	position: relative;
+}
+
+nav {
+	width: 1200px;
+	height: 50px;
+	border-radius: 10px;
+	background: gray;
+	color: white;
+	position: center;
+
+}
+
+ul {
+	margin: auto;
+	padding-top: 4px;
+
+}
+
+li {
+	float: left;
+	padding: 10px;
+	background: blue;
+	border-radius: 10px;
+	margin: 3px;
+	list-style-type: none;
+	box-shadow: 0 0 10px white inset;
+}
+
+section {
+	width: 900px;
+	height: 600px;
+	background: white;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+aside {
+	width: 280px;
+	height: 600px;
+	background: gray;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	color: white;
+
+}
+
+footer {
+	width: 1200px;
+	height: 50px;
+	background: blue;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+	color: white;
+
+}
+
+p {
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 25px;
+	padding: 10px;
+	text-align: justify;
+
+}
+
+/*CLASES*/
+
+.ancho_menu_home{
+	width: 900px;
+}
+
+.ancho_menu_paginas{
+	width: 1000px;
+}
+
+.menu:link{
+	color: white; 
+	text-decoration: none;
+}
+
+.menu:visited{
+	color: white; 
+	text-decoration: none;
+}
+
+.menu:hover{
+	color: white; 
+	text-decoration: none;
+	text-shadow: 0 0 50px white;
+}
+
+.menu:active{
+	color: white; 
+	text-decoration: none;
+}
+
+/*SEUDO CLASES*/
+
